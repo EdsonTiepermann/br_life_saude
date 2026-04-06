@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BR Life Saúde | Cuidado no Conforto da Sua Casa</title>
+  <meta name="description" content="Serviços de saúde humanizados para você e sua família, no conforto da sua casa. Exames, consultas, fisioterapia e muito mais." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Syne:wght@700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#home" class="logo">
+        <span class="logo__icon">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+            <rect width="32" height="32" rx="10" fill="#1db87e"/>
+            <path d="M16 7v18M7 16h18" stroke="#fff" stroke-width="3.5" stroke-linecap="round"/>
+          </svg>
+        </span>
+        <span class="logo__text">BR Life <strong>Saúde</strong></span>
+      </a>
+      <nav class="nav" id="nav">
+        <ul class="nav__list">
+          <li><a href="#home" class="nav__link">Home</a></li>
+          <li><a href="#sobre" class="nav__link">Sobre nós</a></li>
+          <li><a href="#especialidades" class="nav__link">Especialidades</a></li>
+          <li><a href="#diferenciais" class="nav__link">Diferenciais</a></li>
+          <li><a href="#contato" class="nav__link">Contato</a></li>
+        </ul>
+      </nav>
+      <a href="https://wa.me/5542998470877" target="_blank" class="btn btn--primary header__cta">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Fale Conosco
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero__bg">
+      <div class="hero__shape hero__shape--1"></div>
+      <div class="hero__shape hero__shape--2"></div>
+      <div class="hero__shape hero__shape--3"></div>
+    </div>
+    <div class="container hero__inner">
+      <div class="hero__content">
+        <span class="badge badge--light">+ Saúde para você e sua família</span>
+        <h1 class="hero__title">Saúde de Qualidade<br /><span class="highlight">No Conforto da<br />Sua Casa</span></h1>
+        <p class="hero__subtitle">Cuidado humanizado, tecnologia avançada e profissionais dedicados levando bem-estar até você, com todo conforto que você merece.</p>
+        <div class="hero__actions">
+          <a href="https://wa.me/5542998470877" target="_blank" class="btn btn--primary btn--lg">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Agendar pelo WhatsApp
+          </a>
+          <a href="#sobre" class="btn btn--ghost btn--lg">Saiba mais</a>
+        </div>
+        <div class="hero__stats">
+          <div class="stat">
+            <strong>500+</strong>
+            <span>Pacientes atendidos</span>
+          </div>
+          <div class="stat__divider"></div>
+          <div class="stat">
+            <strong>10+</strong>
+            <span>Especialidades</span>
+          </div>
+          <div class="stat__divider"></div>
+          <div class="stat">
+            <strong>100%</strong>
+            <span>Atendimento domiciliar</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero__visual">
+        <div class="hero__card hero__card--main">
+          <div class="hero__card-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4.5 12h15m-7.5-7.5v15" stroke-linecap="round"/><circle cx="12" cy="12" r="9"/></svg>
+          </div>
+          <div>
+            <p class="hero__card-label">Próximo atendimento</p>
+            <p class="hero__card-value">Hoje, 14:30h</p>
+          </div>
+          <span class="status-dot"></span>
+        </div>
+        <div class="hero__card hero__card--secondary">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          <p>Atendimento realizado com sucesso!</p>
+        </div>
+        <div class="hero__blob"></div>
+        <div class="hero__img-wrap">
+          <div class="hero__img-placeholder">
+            <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="#1db87e" stroke-width="1"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero__scroll">
+      <span>Role para baixo</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- SOBRE NÓS -->
+  <section class="about" id="sobre">
+    <div class="container">
+      <div class="about__inner">
+        <div class="about__visual">
+          <div class="about__card-grid">
+            <div class="about__card about__card--green">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4.5 12.75l6 6 9-13.5"/></svg>
+              <p>Cuidado humanizado</p>
+            </div>
+            <div class="about__card about__card--orange">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"/><path d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"/></svg>
+              <p>Atendimento domiciliar</p>
+            </div>
+            <div class="about__card about__card--blue">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+              <p>Disponibilidade 7 dias</p>
+            </div>
+            <div class="about__card about__card--purple">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+              <p>Equipe especializada</p>
+            </div>
+          </div>
+        </div>
+        <div class="about__content">
+          <span class="badge">Sobre nós</span>
+          <h2 class="section__title">Saúde com <span class="highlight">humanidade</span> e tecnologia</h2>
+          <p class="about__text">A BR Life Saúde nasceu com a missão de transformar o acesso à saúde no Brasil, levando cuidado de excelência diretamente até a porta da sua casa.</p>
+          <p class="about__text">Contamos com uma equipe dedicada de profissionais altamente qualificados, prontos para oferecer consultas, diagnósticos, tratamentos e monitoramento contínuo com toda a atenção e carinho que você merece.</p>
+          <ul class="about__list">
+            <li>
+              <span class="about__list-icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4.5 12.75l6 6 9-13.5"/></svg>
+              </span>
+              Atendimento personalizado e humanizado
+            </li>
+            <li>
+              <span class="about__list-icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4.5 12.75l6 6 9-13.5"/></svg>
+              </span>
+              Equipamentos modernos e certificados
+            </li>
+            <li>
+              <span class="about__list-icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4.5 12.75l6 6 9-13.5"/></svg>
+              </span>
+              Resultados rápidos e seguros
+            </li>
+            <li>
+              <span class="about__list-icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4.5 12.75l6 6 9-13.5"/></svg>
+              </span>
+              Teleconsultas disponíveis 24h
+            </li>
+          </ul>
+          <a href="#contato" class="btn btn--primary">Entre em contato</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ESPECIALIDADES -->
+  <section class="services" id="especialidades">
+    <div class="container">
+      <div class="section__header">
+        <span class="badge">Especialidades</span>
+        <h2 class="section__title">O que oferecemos <span class="highlight">para você</span></h2>
+        <p class="section__subtitle">Serviços completos de saúde com atendimento domiciliar, levando qualidade e conforto até onde você está.</p>
+      </div>
+      <div class="services__grid">
+
+        <div class="service-card" data-delay="0">
+          <div class="service-card__icon service-card__icon--green">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0112 15a9.065 9.065 0 00-6.23-.693L5 14.5m14.8.8l1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.309 48.309 0 0112 21c-2.773 0-5.491-.235-8.135-.687-1.718-.293-2.3-2.379-1.067-3.61L5 14.5"/></svg>
+          </div>
+          <h3>Coleta de Exames Laboratoriais</h3>
+          <p>Coleta domiciliar de sangue, urina e outros fluidos com segurança e praticidade, com resultados rápidos e confiáveis.</p>
+          <a href="https://wa.me/5542998470877" target="_blank" class="service-card__link">Agendar <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-7-7l7 7-7 7"/></svg></a>
+        </div>
+
+        <div class="service-card" data-delay="1">
+          <div class="service-card__icon service-card__icon--orange">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10.5h.375c.621 0 1.125.504 1.125 1.125v2.25c0 .621-.504 1.125-1.125 1.125H21M4.5 10.5H18V15H4.5v-4.5zM3.75 18h15A2.25 2.25 0 0021 15.75v-6a2.25 2.25 0 00-2.25-2.25h-15A2.25 2.25 0 001.5 9.75v6A2.25 2.25 0 003.75 18z"/></svg>
+          </div>
+          <h3>ECG, Holter, MAPA e EEG</h3>
+          <p>Monitoramento cardíaco e neurológico completo com equipamentos de última geração, sem sair de casa.</p>
+          <a href="https://wa.me/5542998470877" target="_blank" class="service-card__link">Agendar <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-7-7l7 7-7 7"/></svg></a>
+        </div>
+
+        <div class="service-card" data-delay="2">
+          <div class="service-card__icon service-card__icon--blue">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.007v.008H12v-.008z"/></svg>
+          </div>
+          <h3>Cuidados Preventivos e Curativos</h3>
+          <p>Acompanhamento médico contínuo para prevenção e tratamento de doenças, com planos personalizados de saúde.</p>
+          <a href="https://wa.me/5542998470877" target="_blank" class="service-card__link">Agendar <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-7-7l7 7-7 7"/></svg></a>
+        </div>
+
+        <div class="service-card" data-delay="3">
+          <div class="service-card__icon service-card__icon--purple">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M15.182 15.182a4.5 4.5 0 01-6.364 0M21 12a9 9 0 11-18 0 9 9 0 0118 0zM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75zm-.375 0h.008v.015h-.008V9.75zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75zm-.375 0h.008v.015h-.008V9.75z"/></svg>
+          </div>
+          <h3>Massoterapia</h3>
+          <p>Técnicas terapêuticas de massagem para relaxamento, alívio de dores e bem-estar, realizadas no conforto do seu lar.</p>
+          <a href="https://wa.me/5542998470877" target="_blank" class="service-card__link">Agendar <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-7-7l7 7-7 7"/></svg></a>
+        </div>
+
+        <div class="service-card" data-delay="4">
+          <div class="service-card__icon service-card__icon--teal">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+          </div>
+          <h3>Fonoaudiologia e Fisioterapia</h3>
+          <p>Reabilitação completa com profissionais especializados em fonoaudiologia, fisioterapia e terapia ocupacional.</p>
+          <a href="https://wa.me/5542998470877" target="_blank" class="service-card__link">Agendar <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-7-7l7 7-7 7"/></svg></a>
+        </div>
+
+        <div class="service-card" data-delay="5">
+          <div class="service-card__icon service-card__icon--rose">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0V12a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 12V5.25"/></svg>
+          </div>
+          <h3>Consultas e Teleconsultas</h3>
+          <p>Atendimento médico presencial ou por videochamada com profissionais qualificados, com toda praticidade e segurança.</p>
+          <a href="https://wa.me/5542998470877" target="_blank" class="service-card__link">Agendar <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-7-7l7 7-7 7"/></svg></a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- DIFERENCIAIS / POR QUE ESCOLHER -->
+  <section class="features" id="diferenciais">
+    <div class="features__bg">
+      <div class="features__shape"></div>
+    </div>
+    <div class="container">
+      <div class="section__header section__header--light">
+        <span class="badge badge--light">Por que nos escolher</span>
+        <h2 class="section__title section__title--white">Cuidado que vai <span class="highlight--light">além do esperado</span></h2>
+        <p class="section__subtitle section__subtitle--light">Comprometidos com a sua saúde e bem-estar em cada detalhe do atendimento.</p>
+      </div>
+      <div class="features__grid">
+        <div class="feature-item">
+          <div class="feature-item__icon">
+            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"/></svg>
+          </div>
+          <h3>Atendimento Domiciliar</h3>
+          <p>Levamos saúde até você, eliminando deslocamentos e garantindo máximo conforto no seu lar.</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-item__icon">
+            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09z"/><path d="M18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456z"/></svg>
+          </div>
+          <h3>Tecnologia Avançada</h3>
+          <p>Equipamentos modernos e certificados para diagnósticos precisos e tratamentos eficazes.</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-item__icon">
+            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"/></svg>
+          </div>
+          <h3>Equipe Humanizada</h3>
+          <p>Profissionais treinados para oferecer atendimento empático, atencioso e personalizado.</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-item__icon">
+            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          </div>
+          <h3>Agendamento Fácil</h3>
+          <p>Marque seu atendimento pelo WhatsApp em minutos, com horários flexíveis que se adaptam à sua rotina.</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-item__icon">
+            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z"/></svg>
+          </div>
+          <h3>Segurança e Privacidade</h3>
+          <p>Seus dados e informações de saúde são tratados com total sigilo e conformidade com a LGPD.</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-item__icon">
+            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 01-.825-.242m9.345-8.334a2.126 2.126 0 00-.476-.095 48.64 48.64 0 00-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0011.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155"/></svg>
+          </div>
+          <h3>Suporte Contínuo</h3>
+          <p>Acompanhamento pós-atendimento e canais de comunicação abertos para tirar dúvidas quando precisar.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section class="cta-banner">
+    <div class="container">
+      <div class="cta-banner__inner">
+        <div class="cta-banner__content">
+          <h2>Pronto para cuidar da sua saúde?</h2>
+          <p>Entre em contato agora e agende seu atendimento domiciliar. Nossa equipe está pronta para te atender.</p>
+        </div>
+        <div class="cta-banner__actions">
+          <a href="https://wa.me/5542998470877" target="_blank" class="btn btn--white btn--lg">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Falar no WhatsApp
+          </a>
+          <a href="mailto:contato@brlifesaude.com.br" class="btn btn--outline-white btn--lg">
+            Enviar e-mail
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section class="contact" id="contato">
+    <div class="container">
+      <div class="section__header">
+        <span class="badge">Contato</span>
+        <h2 class="section__title">Fale com a <span class="highlight">nossa equipe</span></h2>
+        <p class="section__subtitle">Estamos prontos para responder suas dúvidas e agendar seu atendimento.</p>
+      </div>
+      <div class="contact__inner">
+        <div class="contact__info">
+          <div class="contact-item">
+            <div class="contact-item__icon contact-item__icon--green">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            </div>
+            <div>
+              <p class="contact-item__label">WhatsApp</p>
+              <a href="https://wa.me/5542998470877" target="_blank" class="contact-item__value">+55 42 99847-0877</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item__icon contact-item__icon--orange">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"/></svg>
+            </div>
+            <div>
+              <p class="contact-item__label">E-mail</p>
+              <a href="mailto:contato@brlifesaude.com.br" class="contact-item__value">contato@brlifesaude.com.br</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item__icon contact-item__icon--purple">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zM17.5 6.5h.01"/></svg>
+            </div>
+            <div>
+              <p class="contact-item__label">Instagram</p>
+              <a href="https://instagram.com/brli_feservdesaude" target="_blank" class="contact-item__value">@brli_feservdesaude</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item__icon contact-item__icon--blue">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            </div>
+            <div>
+              <p class="contact-item__label">Horário de atendimento</p>
+              <p class="contact-item__value">Seg – Sáb: 7h às 20h</p>
+            </div>
+          </div>
+        </div>
+        <form class="contact__form" id="contactForm">
+          <div class="form__group">
+            <label for="name">Nome completo</label>
+            <input type="text" id="name" name="name" placeholder="Seu nome" required />
+          </div>
+          <div class="form__row">
+            <div class="form__group">
+              <label for="phone">Telefone / WhatsApp</label>
+              <input type="tel" id="phone" name="phone" placeholder="(42) 99999-9999" />
+            </div>
+            <div class="form__group">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email" placeholder="seu@email.com" />
+            </div>
+          </div>
+          <div class="form__group">
+            <label for="service">Serviço de interesse</label>
+            <select id="service" name="service">
+              <option value="">Selecione um serviço</option>
+              <option>Coleta de Exames Laboratoriais</option>
+              <option>ECG / Holter / MAPA / EEG</option>
+              <option>Cuidados Preventivos e Curativos</option>
+              <option>Massoterapia</option>
+              <option>Fonoaudiologia e Fisioterapia</option>
+              <option>Consultas e Teleconsultas</option>
+            </select>
+          </div>
+          <div class="form__group">
+            <label for="message">Mensagem</label>
+            <textarea id="message" name="message" rows="4" placeholder="Como podemos ajudar?"></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">
+            Enviar mensagem
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-7-7l7 7-7 7"/></svg>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <a href="#home" class="logo logo--white">
+            <span class="logo__icon">
+              <svg width="28" height="28" viewBox="0 0 32 32" fill="none">
+                <rect width="32" height="32" rx="10" fill="#1db87e"/>
+                <path d="M16 7v18M7 16h18" stroke="#fff" stroke-width="3.5" stroke-linecap="round"/>
+              </svg>
+            </span>
+            <span class="logo__text">BR Life <strong>Saúde</strong></span>
+          </a>
+          <p>Saúde humanizada e de qualidade no conforto da sua casa, para você e sua família.</p>
+          <div class="footer__social">
+            <a href="https://instagram.com/brli_feservdesaude" target="_blank" aria-label="Instagram">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zM17.5 6.5h.01"/></svg>
+            </a>
+            <a href="https://wa.me/5542998470877" target="_blank" aria-label="WhatsApp">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer__links">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#sobre">Sobre nós</a></li>
+            <li><a href="#especialidades">Especialidades</a></li>
+            <li><a href="#diferenciais">Diferenciais</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </div>
+        <div class="footer__links">
+          <h4>Especialidades</h4>
+          <ul>
+            <li><a href="#especialidades">Exames Laboratoriais</a></li>
+            <li><a href="#especialidades">ECG e Holter</a></li>
+            <li><a href="#especialidades">Fisioterapia</a></li>
+            <li><a href="#especialidades">Massoterapia</a></li>
+            <li><a href="#especialidades">Teleconsultas</a></li>
+          </ul>
+        </div>
+        <div class="footer__links">
+          <h4>Contato</h4>
+          <ul>
+            <li><a href="tel:+5542998470877">+55 42 99847-0877</a></li>
+            <li><a href="mailto:contato@brlifesaude.com.br">contato@brlifesaude.com.br</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2024 BR Life Saúde. Todos os direitos reservados.</p>
+        <p>Desenvolvido com cuidado para você.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WHATSAPP FLOAT -->
+  <a href="https://wa.me/5542998470877" target="_blank" class="whatsapp-float" aria-label="WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    <span>Falar agora</span>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
