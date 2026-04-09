@@ -211,6 +211,9 @@ input, select, textarea { font-family: inherit; }
   gap: 10px;
   flex-shrink: 0;
 }
+.logo__icon img {
+  mix-blend-mode: multiply;
+}
 .logo__text {
   font-size: 1.1rem;
   font-weight: 500;
